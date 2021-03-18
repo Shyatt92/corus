@@ -1,0 +1,229 @@
+* {
+  font-family: 'Cinzel', serif;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: #CE9027;
+}
+
+.btn.btn-main, .btn.btn-hollow, p, a {
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+}
+
+a.nav-link, a.dropdown-item {
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  color: rgba(50, 50, 50, 1) !important;
+}
+
+nav.navbar {
+  padding: 30px;
+}
+.nav-logo {
+  width: 140px;
+  height: auto;
+}
+
+#navbar-menu {
+  width: 350px;
+  background-color: #FFF;
+  position: absolute;
+  top: 155px;
+}
+
+#banner {
+  background-image: url("https://corushotels.com/corus-hyde-park/wp-content/uploads/sites/8/2020/12/Banner-Corus-Hyde-Park.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  margin-top: 159.73px;
+}
+
+span.main-menu {
+  font-size: 42px;
+}
+
+.btn.btn-main {
+  background-color: rgb(207, 145, 18);
+  border-radius: 0;
+  height: 45px;
+  width: 127.78px;
+  color: #FFF;
+}
+
+.btn.btn-hollow {
+  border: 1px solid rgb(207, 145, 18);
+  border-radius: 0;
+  padding: 13px 29px;
+}
+
+.font-50px {
+  font-size: 50px;
+}
+
+div.banner-title {
+  border: 1px solid rgb(207, 145, 18);
+}
+
+#open, #trust, #location, #info {
+  margin: 50px 0;
+}
+
+div.w-67 {
+  width: 67% !important;
+}
+div.w-33 {
+  width: 33% !important;
+  margin-left: -320px;
+}
+
+.div-shadow {
+  box-shadow: rgb(89 89 89 / 10%) 1px 3px 5px 0px;
+}
+
+#staycation , #back-to-business, #subscribe {
+  background-color: #f2f2f1;
+}
+
+hr {
+  width: 200px;
+  border-bottom: 1px solid rgb(206, 145, 18);
+  opacity: 1;
+}
+
+#trust img {
+  max-width: 100%;
+}
+
+#trust .overlap {
+  margin-left: -240px;
+  width: 33vw;
+}
+
+.section-wrapper {
+  max-width: 75vw;
+}
+
+#location .overlap-right {
+  position: relative;
+  margin-right: -130px;
+  margin-top: 70px;
+  z-index: 10;
+}
+
+#location img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+span.img-wrapper::after {
+  content: "";
+  height: 92%;
+  width: 90%;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 1px solid #CF9112;
+}
+
+#info img {
+  width: 100%;
+  height: auto;
+}
+
+#info .overlap{
+  margin-left: -240px;
+}
+
+#subscribe {
+  margin: 220px 0 0 0;
+}
+
+#subscribe img {
+  margin: -150px 0 0 0;
+  width: 100%;
+  height: auto;
+}
+
+.subscribe-input {
+  border: 1px solid rgb(207, 144, 39);
+  font-family: 'Merriweather', serif;
+}
+
+.subscribe-email {
+  background-color: #f2f2f1;
+  border: none;
+  margin: 10px 0 10px 10px;
+}
+
+.subscribe-email::placeholder {
+  color: #000;
+}
+
+*:focus {
+  outline: none;
+}
+
+.subscribe-submit {
+  background-color: #f2f2f1;
+  border: none;
+}
+
+#subscribe .agree {
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+}
+
+#subscribe .privacy-policy {
+  color: #abaaa7;
+}
+
+footer {
+  background-color: #323232;
+  color: #fff;
+  text-align: center;
+}
+
+footer img.logo {
+  width: 125px;
+  height: auto;
+  margin: 30px;
+}
+
+footer hr {
+  width: 85%;
+  border-bottom: 1px solid rgb(206, 145, 18);
+  opacity: 1;
+  margin: auto;
+}
+
+footer img {
+  height: 100px;
+  width: auto;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer span.fab {
+  font-size: 28px;
+  margin: 0 10px;
+}
+
+.orange {
+  background-color: rgb(207, 145, 18);
+}
